@@ -1,0 +1,19 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "^C",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tbc"
+  },
+  "author": "Daniel Hope",
+  "license": "ISC"
+}
