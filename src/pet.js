@@ -22,4 +22,8 @@ Pet.prototype.walk = function () {
     this.fitness = 10;
     }};
 
+Pet.prototype.feed = function () {
+    this.hunger = Math.max(MINIMUM_HUNGER, this.hunger - 3);
+    }; 
+
 module.exports = Pet;
