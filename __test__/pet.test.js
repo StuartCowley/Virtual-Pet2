@@ -21,7 +21,7 @@ describe('constructor', () => {
       expect(pet.fitness).toEqual(10);
     });
   });
-
+  
   describe('growUp', () => {
     it('increments the age by 1', () => {
       const pet = new Pet('Ziggy');
